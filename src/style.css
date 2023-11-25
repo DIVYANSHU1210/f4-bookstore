@@ -1,0 +1,32 @@
+body{
+    background-color: blue;
+    padding :0px;
+    margin: 0px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.nav>div{
+    display: flex;
+    align-items: center;
+}
+
+
+.nav img{
+    width: 15px;
+    margin-inline:10px;
+}
+
+.nav input{
+    width: 30vw;
+    outline: none;
+}
+
+
+
