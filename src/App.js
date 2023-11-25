@@ -9,15 +9,11 @@ const App = ()=> {
     return (
 
         <div>
-            <h1> hello </h1>
             <Navbar setQueryResults = {setQueryResults}/>
             {/* <p>{searchval}</p> */}
-            {console.log(queryResults)}
+            {/* {console.log(queryResults)} */}
 
             <Display queryResults={queryResults}/>
-
-
-
         </div>
     )
 }

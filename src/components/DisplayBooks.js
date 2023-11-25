@@ -12,9 +12,12 @@ const DisplayBooks = ({queryResults})=>{
         {
             queryResults&& (
                 queryResults.map((value, index)=>(
-                    <div key={index}>
-                        <img src={value.volumeInfo.imageLinks.thumbnail} style={{height:"200px", width:"150px" , margin:"10px"}}/>                   
-                    </div>
+                        <div key={index}>
+                            <img 
+                            src={value.volumeInfo.imageLinks.thumbnail} 
+                            style={{height:"200px", width:"150px" , margin:"10px"}}
+                            />                   
+                        </div>
                 ))
             )
         }
