@@ -19,7 +19,6 @@ const DisplayBooks = ({queryResults})=>{
                                 <h1>{selectedBook.volumeInfo.title}</h1>
                                 <h4>{selectedBook.volumeInfo.authors[0]}</h4>
                                 <p>{selectedBook.volumeInfo.description}</p>
-                                <h5>{selectedBook.volumeInfo.}</h5>
                                 {/* words.slice(0, wordLimit).join(' '); */}
 
                             </div>
